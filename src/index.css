@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,500;1,800&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 2rem;
+  color: hsl(0, 0%, 0%);
+}
+
+p {
+  line-height: 160%;
+}
+
+p::first-letter {
+  font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article,
+.page {
+  padding: 0 1rem;
+}
+
+li {
+  line-height: 120%;
+  /* padding-bottom: 0.5rem 0; */
+  margin: 1rem 0;
+}
+
+pre {
+  border: 0.1px solid;
+  border-color: hsl(0, 0%, 90%);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  font-weight: 900;
+}
+
+code {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  line-height: 130%;
+  color: hsl(255, 70%, 35%);
+}
