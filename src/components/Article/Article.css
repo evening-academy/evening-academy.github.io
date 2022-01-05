@@ -1,0 +1,33 @@
+img {
+  max-width: 35rem;
+  min-width: 20rem;
+  width: 90%;
+}
+@media (min-width: 576px) {
+  img {
+    max-width: 57rem;
+    min-width: 30rem;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  img {
+    max-width: 76rem;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  img {
+    max-width: 90rem;
+  }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

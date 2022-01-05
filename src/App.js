@@ -11,9 +11,7 @@ import { createUseStyles } from 'react-jss';
 
 const myStyles = createUseStyles({
 	myApp: {
-		maxWidth: "130rem",
-		minWidth: "30rem",
-		width: "85vw",
+		display: "block",
 		background: {
 			color: `hsl(0, 0%, 95%);`,
 		},
@@ -41,14 +39,21 @@ const myStyles = createUseStyles({
 			// fontWeight: 'bold', // jss-plugin-camel-case turns this into 'font-weight',
 			color: "red"
 		},
-		display: "grid",
-		gridTemplateColumns: '1fr 1fr 1fr',
-		gridTemplateAreas: `
-          "header header header"
-          "main main sidebar"
-          "footer footer footer"
-        `,
-		gap: "1rem;",
+	},
+	'@media (min-width: 1200px)': {
+		myApp: {
+			display: "grid",
+			maxWidth: "130rem",
+			// minWidth: "30rem",
+			width: "85vw",
+			gridTemplateColumns: '1fr 1fr 1fr',
+			gridTemplateAreas: `
+					"header header header"
+					"main main sidebar"
+					"footer footer footer"
+					`,
+			gap: "1rem;",
+		}
 	}
 });
 // const appClasses = { button: 'button-123456 active-123456 btn btn-primary' }

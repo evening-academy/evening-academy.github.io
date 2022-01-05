@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MarkDown from 'markdown-to-jsx';
+import "./Article.css"
+// https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
 export default function Article() {
 

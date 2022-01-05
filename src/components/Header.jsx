@@ -18,7 +18,7 @@ const myStyles = createUseStyles({
             style: "solid",
             color: `hsl(0, 0%, 90%);`,
         },
-        display: "flex",
+        display: "block",
         // flexDirection: 'row',
         alignItems: "center",
         justifyContent: "start",
@@ -28,6 +28,11 @@ const myStyles = createUseStyles({
             // alignSelf: "center",
         }
     },
+    '@media (min-width: 900px)': {
+        header: {
+            display: "flex",
+        }
+    }
 });
 export default function Header() {
     const classes = myStyles();
