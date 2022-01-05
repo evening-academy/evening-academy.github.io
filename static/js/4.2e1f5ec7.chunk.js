@@ -1,2 +1,0 @@
-(this["webpackJsonpEvening Academy"]=this["webpackJsonpEvening Academy"]||[]).push([[4],{30:function(e,a,i){"use strict";i.r(a),a.default=i.p+"static/media/js_create_an_image_slider.d2caad04.md"}}]);
-//# sourceMappingURL=4.2e1f5ec7.chunk.js.map
