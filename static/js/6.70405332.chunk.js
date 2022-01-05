@@ -1,0 +1,2 @@
+(this["webpackJsonpEvening Academy"]=this["webpackJsonpEvening Academy"]||[]).push([[6],{32:function(e,t,a){"use strict";a.r(t),t.default=a.p+"static/media/react_pinterest_clone.d2caad04.md"}}]);
+//# sourceMappingURL=6.70405332.chunk.js.map
