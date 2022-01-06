@@ -12,8 +12,8 @@ const myStyles = createUseStyles({
             justifyContent: "space-between",
             listStyle: "none",
             margin: 0,
+            padding: 0,
         }
-
     }
 });
 
@@ -27,6 +27,7 @@ export default function Navigation() {
                 <li><NavLink to="/css">CSS</NavLink></li>
                 <li><NavLink to="/javascript">JavaScript</NavLink></li>
                 <li><NavLink to="/git">Git</NavLink></li>
+                <li><NavLink to="/markdown">Markdown</NavLink></li>
             </ul>
         </nav>
     )

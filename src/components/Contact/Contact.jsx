@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import TestArticle from '../Article/TestArticle';
 
 export default function Contact() {
     return (
         <div className='page'>
+            <TestArticle />
             <h2>Обратная связь и о проекте</h2>
             <p>На начало 2022 года я Software Engineer в фирме EPAM. В свободное от работы и развлечений время я веду этот проект. Прошу понять и простить, если информации недостаточно, устаревшая или неточная.</p>
             <p>Я даю частные уроки <b>взрослым</b> "Введение в программирование", на базе языка Java или JavaScript. Ударение на слово взрослым. Я даю знания тем, кто их хочет получить.</p>

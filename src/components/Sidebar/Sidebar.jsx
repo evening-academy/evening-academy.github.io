@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Timer from '../../widgets/Timer/Timer';
 import { createUseStyles } from 'react-jss';
-import Timer from '../Timer/Timer';
+
 
 const myStyles = createUseStyles({
     sidebar: {

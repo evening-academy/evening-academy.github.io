@@ -1,11 +1,10 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import MainContent from './components/MainContent';
-import Slider from './components/Sidebar/Sidebar';
-import Header from './components/Header';
-import Footer from './Footer';
+import MainContent from './MainContent/MainContent';
+import Slider from './Sidebar/Sidebar';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 import { createUseStyles } from 'react-jss';
 

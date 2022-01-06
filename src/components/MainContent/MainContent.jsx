@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Article from './Article/Article'
-import Contact from './Contact';
+import Article from '../Article/Article'
+import Contact from '../Contact/Contact';
 
 import { createUseStyles } from 'react-jss';
 
@@ -20,14 +20,16 @@ const myStyles = createUseStyles({
 
 export default function MainContent() {
     const classes = myStyles();
-
     return (
         <main className={classes.main}>
             <Routes>
-                <Route path='/' element={< Article />} />
+                <Route path='/' element={< Article fileName='js-settimeout-setinterval' />} />
+                <Route path='/markdown' element={< Article fileName='markdown-test-file' />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
         </main>
-
     )
 }
+
+//js-settimeout-setinterval
+//css-introduction

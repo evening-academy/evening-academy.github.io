@@ -1,16 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import MarkDown from 'markdown-to-jsx';
+import { Helmet } from 'react-helmet';
+
 import "./Article.css"
-// https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
-export default function Article() {
-
-    const file_name = 'test.md';
+export default function Article(props) {
+    let {
+        id,
+        title,
+        shortTitle,
+        fileName,
+        weight,
+        date = "16.02.2022",
+        tags,
+        language,
+        description,
+        readTime,
+        author,
+    } = props;
+    // 'js-settimeout-setinterval'
     const [post, setPost] = useState('');
 
     useEffect(() => {
-        import(`../../markdown/${file_name}`)
+        import(`../../markdown/${fileName}.md`)
             .then(res => {
+
                 fetch(res.default)
                     .then(res => res.text())
                     .then(res => setPost(res));
@@ -24,8 +38,15 @@ export default function Article() {
         </MarkDown>
     );
     return (
-        <article>
-            {result}
-        </article>
+        <>
+            <Helmet>
+                <title>{props.title || "article"}</title>
+                <meta name="description" content={props.description || "test-description"} />
+                <meta name="theme-color" content="#000000" />
+            </Helmet>
+            <article>
+                {result}
+            </article>
+        </>
     );
 }

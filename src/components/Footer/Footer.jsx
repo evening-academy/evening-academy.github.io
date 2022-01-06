@@ -1,7 +1,7 @@
 import React from 'react'
 import { createUseStyles } from 'react-jss';
 import { Link } from 'react-router-dom';
-import Navigation from './components/Navigation/NavigationFooter';
+import Navigation from './NavigationFooter';
 
 const myStyles = createUseStyles({
     footerCopyright: {

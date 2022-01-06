@@ -1,16 +1,118 @@
 export default function getData() {
-    getSource();
+    return getSource();
 }
 
 function getSource() {
-
-
+    return [
+        {
+            id: 0,
+            title: "Отложенные действия - setTimeout, setInterval",
+            shortTitle: "setTimeout & setInterval",
+            fileName: "js-settimeout-setinterval",
+            weight: "10",
+            date: "16.02.2022",
+            tags: [
+                "JavaScript",
+                "setTimeout",
+                "setInterval",
+                "requestAnimationFrame"
+            ],
+            language: "JavaScript",
+            description: "",
+            readTime: "15",
+            author: "andron13",
+        },
+        {
+            id: 1,
+            title: "css introduction",
+            shortTitle: "css intro",
+            fileName: "css-introduction",
+            weight: "1",
+            date: "16.02.2022",
+            tags: "css",
+            language: "css",
+            description: "css introduction ",
+            readTime: "1",
+            author: "andron13",
+        },
+        {
+            id: 2,
+            title: "html introduction",
+            shortTitle: "html intro",
+            fileName: "html-introduction",
+            weight: "100",
+            date: "16.02.2022",
+            tags: "",
+            language: "",
+            description: "",
+            readTime: "",
+            author: "",
+        },
+        {
+            id: 3,
+            title: "react introduction",
+            shortTitle: "react intro",
+            fileName: "react-introduction",
+            weight: "19",
+            date: "16.02.2022",
+            tags: "",
+            language: "",
+            description: "",
+            readTime: "",
+            author: "",
+        },
+        {
+            id: 4,
+            title: "git introduction",
+            shortTitle: "git intro",
+            fileName: "git-introduction",
+            weight: "17",
+            date: "16.02.2022",
+            tags: "",
+            language: "",
+            description: "",
+            readTime: "",
+            author: "",
+        },
+        {
+            id: 5,
+            title: "js-introduction",
+            shortTitle: "js intro",
+            fileName: "js-introduction",
+            weight: "15",
+            date: "16.02.2022",
+            tags: "",
+            language: "",
+            description: "",
+            readTime: "",
+            author: "",
+        },
+        {
+            id: 6,
+            title: "typescript introduction",
+            shortTitle: "typescript intro",
+            fileName: "typescript-introduction",
+            weight: "17",
+            date: "16.02.2022",
+            tags: "",
+            language: "typescript",
+            description: "",
+            readTime: "",
+            author: "",
+        },
+    ]
 }
 
 let exampleJSON = {
-    theme: "",
-    weight: "",
+    id: "",
     title: "",
-    url: "",
-
+    shortTitle: "",
+    fileName: "",
+    weight: "",
+    date: "16.02.2022",
+    tags: "",
+    language: "",
+    description: "",
+    readTime: "",
+    author: "",
 }

@@ -12,7 +12,7 @@ const myStyles = createUseStyles({
             justifyContent: "space-between",
             listStyle: "none",
             margin: 0,
-            paddingBottom: 0,
+            padding: 0,
         }
 
     }
