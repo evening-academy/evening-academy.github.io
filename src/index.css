@@ -58,6 +58,7 @@ pre {
   font-weight: 900;
   font-size: 1.6rem;
   line-height: 140%;
+  padding: 0.5rem;
 }
 
 code {
@@ -66,4 +67,8 @@ code {
   line-height: 140%;
   font-size: 1.6rem;
   color: hsl(255, 100%, 25%);
+}
+
+test {
+  color: hsl(1, 1%, 99%);
 }

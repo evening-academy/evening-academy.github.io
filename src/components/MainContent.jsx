@@ -9,9 +9,9 @@ import { createUseStyles } from 'react-jss';
 const myStyles = createUseStyles({
     main: {
         gridArea: "main",
-        background: {
-            color: `hsl(0, 0%, 95%);`,
-        },
+        // background: {
+        //     color: `color: hsl(1, 1%, 99%);`,
+        // },
         padding: {
             // left: "0.5rem",
         },

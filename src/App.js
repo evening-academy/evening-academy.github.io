@@ -13,7 +13,7 @@ const myStyles = createUseStyles({
 	myApp: {
 		display: "block",
 		background: {
-			color: `hsl(0, 0%, 95%);`,
+			color: `color: hsl(1, 1%, 99%)`,
 		},
 		// border: {
 		// 	width: 1, // jss-plugin-default-unit makes this 1px

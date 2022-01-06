@@ -5,9 +5,9 @@ import Timer from '../Timer/Timer';
 const myStyles = createUseStyles({
     sidebar: {
         gridArea: "sidebar",
-        background: {
-            color: `hsl(0, 0%, 95%);`,
-        },
+        // background: {
+        //     color: `color: hsl(1, 1%, 99%);`,
+        // },
         // color: "blue",
         // border: {
         //     width: 1,
