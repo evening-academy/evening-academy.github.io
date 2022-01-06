@@ -262,6 +262,7 @@ console.log(myTimer.getTimeLeft());
 ## Домашнее задание
 
 1. Что выдаст консоль?  
+   
    ````JavaScript
    let count = 0;
    setTimeout(() => console.log(count), 1000); // ?
@@ -269,36 +270,45 @@ console.log(myTimer.getTimeLeft());
        count++;
    }
    ````
-2. Что произойдёт? Объясните почему так вышло.  
+
+2. Что произойдёт? Объясните почему так вышло.
+
    ````JavaScript
    for (var i = 0; i < 4; i += 1) {
        setTimeout(() => console.log(i), 0);
    }
    ````
-3. Что произойдёт? Объясните почему так вышло.  
+
+3. Что произойдёт? Объясните почему так вышло. 
+
    ````JavaScript
    for (let i = 0; i < 4; i += 1) {
        setTimeout(() => console.log(i), 0);
    }
    ````   
+
 4. В каком порядке сработают распечатки? Объясните почему так вышло.  
-   ````JavaScript
-   function printing() {
-     console.log(1);
-     setTimeout(function () {
-       console.log(2);
-     }, 1000);
-     setTimeout(function () {
-       console.log(3);
-     }, 0);
-     console.log(4);
-   // если не учили промисы, то можете закомментировать строчку
-     Promise.resolve().then(() => console.log(5)); 
-   }
-   printing();
-   ````
+   
+    ````JavaScript
+    function printing() {
+        console.log(1);
+        setTimeout(function () {
+        console.log(2);
+        }, 1000);
+        setTimeout(function () {
+        console.log(3);
+        }, 0);
+        console.log(4);  
+    // если не учили промисы, то можете закомментировать строчку  
+        Promise.resolve().then(() => console.log(5)); 
+    }
+    printing();
+    ````
+
 5. Сделайте таймер, с кнопкой, с обратным отсчётом.
-6. Сделайте на странице HTML 16 квадратов - 4*4. Поменяйте у одного произвольного квадрата цвет каждые пол-секунды. Подсказка для гридов:  
+
+6. Сделайте на странице HTML 16 квадратов - 4*4. Поменяйте у одного произвольного квадрата цвет каждые пол-секунды. Подсказка для гридов: 
+
     ````css
        body {
        display: grid;
@@ -315,4 +325,4 @@ console.log(myTimer.getTimeLeft());
    - отключите кнопку старт после нажатия и активируйте кнопку стоп
    - квадратик должен ездить туда сюда пока не нажмут стоп.
    - перепишете setInterval на requestAnimationFrame() 
-9. Используя requestAnimationFrame нарисуйте моргающий элемент в правом верхнем углу экрана. Появление-исчезание, частота - раз в секунду. 
+9.  Используя requestAnimationFrame нарисуйте моргающий элемент в правом верхнем углу экрана. Появление-исчезание, частота - раз в секунду. 

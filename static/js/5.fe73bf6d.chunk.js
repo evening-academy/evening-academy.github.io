@@ -1,2 +1,0 @@
-(this["webpackJsonpEvening Academy"]=this["webpackJsonpEvening Academy"]||[]).push([[5],{32:function(a,e,t){"use strict";t.r(e),e.default=t.p+"static/media/react_all_about_hooks.d2caad04.md"}}]);
-//# sourceMappingURL=5.fe73bf6d.chunk.js.map
