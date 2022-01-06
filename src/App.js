@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import MainContent from './components/MainContent';
 import Slider from './components/Sidebar/Sidebar';
 import Header from './components/Header';
 import Footer from './Footer';
-import Contact from './components/Contact';
 
 import { createUseStyles } from 'react-jss';
 
@@ -62,6 +62,11 @@ export default function App() {
 	const classes = myStyles();
 	return (
 		<div className={classes.myApp}>
+			<Helmet>
+				<title>Evening Academy</title>
+				<meta name="description" content="Evening Academy" />
+				<meta name="theme-color" content="#000000" />
+			</Helmet>
 			<Header />
 			<MainContent />
 			<Slider />

@@ -11,16 +11,8 @@ html {
 }
 
 body {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: hsl(0, 0%, 0%);
-}
-
-p {
-  line-height: 160%;
-}
-
-p::first-letter {
-  font-weight: 900;
 }
 
 h1,
@@ -33,13 +25,29 @@ article,
 .page {
   padding: 0 1rem;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-size: 90%; */
+  color: hsl(0, 50%, 30%);
+}
 li {
   line-height: 120%;
   /* padding-bottom: 0.5rem 0; */
   margin: 1rem 0;
 }
+p {
+  line-height: 160%;
+  font-size: 2rem;
+}
 
+p::first-letter {
+  /* font-weight: 900; */
+  color: hsl(0, 50%, 30%);
+}
 pre {
   border: 0.1px solid;
   border-color: hsl(0, 0%, 90%);
@@ -47,13 +55,15 @@ pre {
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-
   font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 140%;
 }
 
 code {
   font-family: "JetBrains Mono", monospace;
-  font-weight: 300;
-  line-height: 130%;
-  color: hsl(255, 70%, 35%);
+  font-weight: 500;
+  line-height: 140%;
+  font-size: 1.6rem;
+  color: hsl(255, 100%, 25%);
 }

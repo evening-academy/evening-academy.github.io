@@ -31,6 +31,9 @@ const myStyles = createUseStyles({
     '@media (min-width: 900px)': {
         header: {
             display: "flex",
+            '& h1': {
+                whiteSpace: "nowrap",
+            }
         }
     }
 });
@@ -39,7 +42,7 @@ export default function Header() {
     return (
         <header className={classes.header}>
             <h1>
-                <NavLink to="/">Вечерняя&nbsp;академия</NavLink>
+                <NavLink to="/">Вечерняя академия</NavLink>
             </h1>
             <Navigation />
         </header>
