@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss';
 import { NavLink } from 'react-router-dom';
 
 const myStyles = createUseStyles({
-    appNav: {
+    appNavFooter: {
         '& ul': {
             display: "flex",
             gap: "2rem",
@@ -12,6 +12,7 @@ const myStyles = createUseStyles({
             justifyContent: "space-between",
             listStyle: "none",
             margin: 0,
+            paddingBottom: 0,
         }
 
     }
@@ -20,13 +21,9 @@ const myStyles = createUseStyles({
 export default function Navigation() {
     const classes = myStyles();
     return (
-        <nav className={classes.appNav}>
+        <nav className={classes.appNavFooter}>
             <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/about">about</NavLink></li>
-                <li><NavLink to="/contact">contact</NavLink></li>
-                <li><NavLink to="/list">list</NavLink></li>
-                <li><NavLink to="/test">test</NavLink></li>
+                <li><NavLink to="/contact">Контакты</NavLink></li>
             </ul>
         </nav>
     )

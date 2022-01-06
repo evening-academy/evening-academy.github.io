@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Navigation from './Navigation';
+import Navigation from './NavigationHeader';
 import { createUseStyles } from 'react-jss';
 
 const myStyles = createUseStyles({
