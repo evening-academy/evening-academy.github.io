@@ -1,0 +1,2 @@
+(this["webpackJsonpEvening Academy"]=this["webpackJsonpEvening Academy"]||[]).push([[6],{39:function(i,n,t){"use strict";t.r(n),n.default=t.p+"static/media/js-introduction.21c71720.md"}}]);
+//# sourceMappingURL=6.ad2c13d9.chunk.js.map
